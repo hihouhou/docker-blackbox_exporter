@@ -9,7 +9,7 @@ FROM debian:latest
 
 LABEL org.opencontainers.image.authors="hihouhou < hihouhou@hihouhou.com >"
 
-ENV BLACKBOX_EXPORTER_VERSION=v0.25.0
+ENV BLACKBOX_EXPORTER_VERSION=v0.26.0
 
 # Create prometheus user
 RUN useradd -ms /bin/bash prometheus
